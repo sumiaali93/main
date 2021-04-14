@@ -1,0 +1,225 @@
+.navbar-brand img{
+    height: 70px;
+}
+.nav-item{
+    text-align: left;
+}
+.navbar-toggler{
+    border: none;
+}
+.custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(58,173,230,1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E") !important;
+  }
+  button .navbar-toggler:focus{
+border: none;
+  }
+  /***********info***************/
+ 
+ .abs{
+     position: relative;
+    
+ }
+  
+
+ .sloga h1{
+      position: absolute;
+      top: 20px;
+      right: 50px;
+      z-index: 2;
+  }
+
+  .imgg img{
+    width: 500px;
+    float: left;
+    /*align-items: left;*/
+      
+  }
+  /***********home************/
+  .empt{
+    display: block;
+    width: 70px;
+    height: 50px;
+    color: #77c6ed;
+    opacity: 1;
+  }
+ 
+   .iml img{
+     /* height: 250px;
+      margin-top: 0px;*/
+      position: absolute;
+      top: -100px;
+      left: 140px;
+      right: 140px;
+      height: 350px;
+  }
+  .paragraph{
+      margin-right:100px;
+      margin-top:-60px;
+  }
+  
+  /****************cards*******************/
+  .bg{
+    background-image: url('../imgs/we-offer.png');
+    padding: 150px 0;
+}
+
+
+.card{
+    width: 350px;
+        border-radius: 30px;
+}.card p{
+    text-align: center;
+}
+  .card h4{
+      color: #95d8fa;
+text-align: center;  }
+  /*****************works******************/
+.help {
+    margin-top: 70px;
+}
+
+.dism{
+  border-radius: 30px 30px 0 0;
+}
+.kalam{
+  width: 350px;
+  height: 80px;
+  background-color: white;
+ border-radius: 0 0 30px 30px;
+
+}
+ .hk {
+    color: black;
+    text-align: center;
+    padding-top: 18px;
+} 
+.imgy{
+background-image: url(../imgs/bg30-Ar1web.gif);
+padding: 90px 0;
+margin-top: -40px;
+
+  }
+  .affirm , .btn, .additional{
+    background-color: #233142;
+    color: white;
+    border: 1px solid #233142;
+border-radius: 50px;
+width: 200px;
+height: 50px;
+margin: auto;
+display: block;
+margin-top: 30px;
+  }
+  /************************add*******************************/
+  
+  /*.addimg{
+    background-image: url('../imgs/articles.jpg');
+   background-repeat: no-repeat;
+   
+  
+z-index: 0;
+} */
+
+.carall{
+  z-index: 1;
+}
+  .micro ,.web{
+    margin: 30px 10px 30px 100px;}
+  .micro{
+    margin-right: 250px;
+  }
+  .micro , .web{
+    width: 430px;
+    border: 5px solid rgb(252, 244, 244);
+    border-radius: 30px;
+   }
+  .additional {
+    height: 50px;
+    width: 80px;
+    margin-right: 0px;
+    display: inline-block;
+    margin-left: 280px;
+    margin-bottom:20px;
+  }
+ 
+  /*.pagination{
+    margin-left:500px;
+  }
+  .pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+  
+  .pagination a.active {
+    background-color:#007bff ;
+    color: white;
+  }*/
+  /**************************padges**************************/
+   
+  .pcd{
+    background-image: url('../imgs/our-client-bg.jpg');
+    background-size: 100%;
+    border-image-repeat: no-repeat;
+  }
+  .owl-carousel pic {
+    display: flex;
+    align-items: center;
+    justify-content: center !important;
+    position: relative;
+  }
+  .owl-carousel pic  .charge{
+  position: absolute;
+  z-index: 1;
+  margin-top: 30px;
+  width: 50px;
+}
+ 
+
+  /*
+     .charge{
+      margin-top: 100px;
+      display: inline-block !important;
+       width: 120px !important;
+        /*flex-shrink: 0 !important;
+       margin-right: 50px;
+       margin-left: -550px;
+      
+  
+  }*/
+  /**********************footer*******************/
+ /* .footpic{
+    background-image: url('../imgs/footer.jpg');
+    background-size: 600px;
+   }*/
+  /* .footer{
+     display: flex;
+     flex-wrap: nowrap;
+
+   } */
+   .footpic img{
+     width: 100%;
+   }
+   .footpic{
+     position: relative;
+    }
+    .apps img {
+    position: absolute;
+      z-index: 2;
+      top:130px;
+      bottom: 200px;  
+     width: 300px; 
+   }
+  .side img{
+    margin-right: 600px;
+    margin-top: 0px;
+    margin-bottom: 500px;
+    /*float: left;*/
+    padding: 100px; 
+  }
+  .side .create p{
+  /* display: inline-block;*/
+     color:white;
+    float: left;
+    }
