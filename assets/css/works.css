@@ -1,0 +1,26 @@
+.add{
+    background-image: url("../imgs/bg30-Ar1web.gif");
+    border-image-repeat: repeat;
+  }
+.worker{
+    position: relative;
+}
+
+ .child h2::before{
+    content: "";
+    width: 5px;
+    height: 50px;
+    background-color: #3aade6;
+    position: absolute;
+    right:-15px;
+    top: 5px;
+    bottom: 35px;
+}
+.child h2{
+    margin-bottom : 60px;
+    padding-top: 10px;
+}
+.pagination{
+    margin-top: 15px;
+    padding-bottom: 15px;
+}

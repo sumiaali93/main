@@ -1,25 +1,53 @@
 $(document).ready(function(){
-    $(".services-carousel").owlCarousel();
-  items:3;
-  rtl:true;
-nav:true;
-});
-$(document).ready(function(){
-  $(".owl-carousel").owlCarousel();
-items:6;
+    $(".services-carousel").owlCarousel({
+    //  rtl:true,
+      loop:true,
+    margin:10,
+    responsiveClass:true,
+    responsive:{
+        0:{
+            items:1,
+            nav:true
+        },
+        600:{
+            items:3,
+            nav:false
+        },
+        1000:{
+            items:3,
+            nav:true,
+            loop:false
+        }
+      }
+    });
+  });
 
-});
-$(document).ready(function(){
-  $(".owl-carousel all").owlCarousel();
-items:6;
-});
-$(document).ready(function(){
-  $(".owl-carousel pic").owlCarousel();
-rtl:true;
-items:4;
-});
+  $(document).ready(function(){
+    $(".pic").owlCarousel({
+     rtl:true,
+     margin:5,
+      loop:true,
+    responsiveClass:true,
+    responsive:{
+        0:{
+            items:1,
+            nav:true
+        },
+        600:{
+            items:4,
+            nav:false
+        },
+        1000:{
+            items:4,
+            nav:true,
+            loop:false
+        }
+      }
+    });
+  });
 
-
+ 
+/*
 $(document).ready(function(){
   $(".hidden").hide();});
   $(document).ready(function(){
@@ -31,4 +59,4 @@ $(document).ready(function(){
   $(".hidden").fadeToggle();
   })});
 
-  
+ */ 
